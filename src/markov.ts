@@ -12,7 +12,7 @@ interface MarkovChain {
  * @param order - Order of the Markov chain (number of words to use as key)
  * @returns MarkovChain object
  */
-function buildMarkovChain(text: string, order: number = 1.9): MarkovChain {
+function buildMarkovChain(text: string, order: number = 1.94): MarkovChain {
     const chain: MarkovChain = {};
 
     // Clean and tokenize the text
