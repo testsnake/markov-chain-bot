@@ -2,7 +2,7 @@ import { users } from "../users.json";
 import { generatePost } from "./markov";
 import { createAuthenticatedAgent } from "./download_posts";
 
-const markov_order = 2;
+const markov_order = undefined;
 
 async function main() {
     // choose random user
