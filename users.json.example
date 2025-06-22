@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "handle": "handle",
+            "password": "password",
+            "target": "targeted user"
+        },
+        {
+            "handle": "handle",
+            "password": "password",
+            "target": "targeted user"
+        }
+    ]
+}

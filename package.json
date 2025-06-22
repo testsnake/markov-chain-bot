@@ -1,0 +1,25 @@
+{
+  "name": "markov-chain-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download": "tsx ./src/download_posts.ts",
+    "generate": "tsx ./src/markov.ts",
+    "start": "tsx ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@atproto/api": "^0.15.16",
+    "@types/node": "^24.0.3",
+    "dotenv": "^16.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  }
+}
