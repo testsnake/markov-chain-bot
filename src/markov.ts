@@ -145,7 +145,7 @@ async function generatePost(username: string, markovOrder: number = 2, agent: At
         const markovChain = buildMarkovChain(userPosts, markovOrder);
 
         // Generate and return a single post
-        const generatedPost = generateText(markovChain, 300, markovOrder);
+        const generatedPost = generateText(markovChain, 280, markovOrder);
         return generatedPost;
     } catch (error) {
         throw new Error(`Failed to generate post for @${username}: ${error.message}`);
